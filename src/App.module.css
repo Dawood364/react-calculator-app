@@ -1,0 +1,14 @@
+.container
+{
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  width: 370px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #222; /* Dark theme */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+

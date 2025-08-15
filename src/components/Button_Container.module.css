@@ -1,0 +1,42 @@
+.buttonContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  width: 100%;
+}
+.btn{
+background: #444;
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+}
+.btn:hover {
+  background: #666;
+  transform: scale(1.05);
+}
+
+/* Special Buttons */
+.btn:nth-child(1) { /* C button */
+  background: #ff3b30;
+}
+.btn:nth-child(4),
+.btn:nth-child(7),
+.btn:nth-child(10),
+.btn:nth-child(13) { /* Operators */
+  background: #ff9500;
+}
+.btn:nth-child(14) { /* Equal */
+  background: #34c759;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}
