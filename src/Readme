@@ -17,7 +17,7 @@ A simple calculator built using **React** and **CSS Modules**. This project demo
 
 ## 🚀 Features
 
-- Add, subtract, multiply, divide operations
+- Add, subtract, multiply, divide operationss
 - Clear screen (C button)
 - Real-time calculation display
 - Modular and reusable components
